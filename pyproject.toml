@@ -7,6 +7,7 @@ authors = ["emmanuel <emmanuelanaya@outlook.com>"]
 [tool.poetry.dependencies]
 python = "^3.8"
 qmk = "^0.0.34"
+pygments = "^2.7.2"
 
 [tool.poetry.dev-dependencies]
 

@@ -66,6 +66,19 @@ optional = false
 python-versions = "*"
 
 [[package]]
+name = "milc"
+version = "1.0.10"
+description = "Opinionated Batteries-Included Python 3 CLI Framework."
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+appdirs = "*"
+argcomplete = "*"
+colorama = "*"
+
+[[package]]
 name = "nose2"
 version = "0.9.2"
 description = "unittest2 with plugins, the succesor to nose"
@@ -107,7 +120,7 @@ python-versions = ">=3.5"
 
 [[package]]
 name = "qmk"
-version = "0.0.34"
+version = "0.0.37"
 description = "A program to help users work with QMK Firmware."
 category = "main"
 optional = false
@@ -119,7 +132,9 @@ argcomplete = "*"
 colorama = "*"
 flake8 = "*"
 hjson = "*"
+milc = ">=1.0.8"
 nose2 = "*"
+pygments = "*"
 yapf = "*"
 
 [[package]]
@@ -141,7 +156,7 @@ python-versions = "*"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "005360c4ae75d569565498b3aa7cb9cfd9322e4aa6c70a147ba672e7ced0b6fb"
+content-hash = "062fdeec7d2d66af50348ba94590e235baa526c8841e74f3543c1f7f6992ea6a"
 
 [metadata.files]
 appdirs = [
@@ -204,6 +219,10 @@ mccabe = [
     {file = "mccabe-0.6.1-py2.py3-none-any.whl", hash = "sha256:ab8a6258860da4b6677da4bd2fe5dc2c659cff31b3ee4f7f5d64e79735b80d42"},
     {file = "mccabe-0.6.1.tar.gz", hash = "sha256:dd8d182285a0fe56bace7f45b5e7d1a6ebcbf524e8f3bd87eb0f125271b8831f"},
 ]
+milc = [
+    {file = "milc-1.0.10-py2.py3-none-any.whl", hash = "sha256:c69ce94bd967b38ffba6c799d4bc8714f9910677b8e3c3a7539fcf9a31895a29"},
+    {file = "milc-1.0.10.tar.gz", hash = "sha256:62c4bbd8e3909d581db95bf8da5bad1122acfafb046c688fe1159d89333e37e0"},
+]
 nose2 = [
     {file = "nose2-0.9.2-py2.py3-none-any.whl", hash = "sha256:fd4b84c65ecea869080a23bdb8916716f5363df3b899933991c861ada8aa3f48"},
     {file = "nose2-0.9.2.tar.gz", hash = "sha256:8762f77925bbafcdf38331e0e2ee718756fb75ff74b1f9097cd08731ad59ab5e"},
@@ -221,8 +240,8 @@ pygments = [
     {file = "Pygments-2.7.3.tar.gz", hash = "sha256:ccf3acacf3782cbed4a989426012f1c535c9a90d3a7fc3f16d231b9372d2b716"},
 ]
 qmk = [
-    {file = "qmk-0.0.34-py2.py3-none-any.whl", hash = "sha256:04e98b335a119f9033d77444f25ab60c20b7e537244fcca7c11c3d7fa7123938"},
-    {file = "qmk-0.0.34.tar.gz", hash = "sha256:54b751abc83fd985e06bf3b5407070ba3321d5fb8d69419845982b3a48673a7d"},
+    {file = "qmk-0.0.37-py2.py3-none-any.whl", hash = "sha256:77102eabe86a68ed3a859c1e300b6f01d05e25eb4bc394044e2e22bec67e9f26"},
+    {file = "qmk-0.0.37.tar.gz", hash = "sha256:c10a1b18a9a9ecfa1a188a4174ed97fcb9b46b5fb706af6acdf879cfdef1af24"},
 ]
 six = [
     {file = "six-1.15.0-py2.py3-none-any.whl", hash = "sha256:8b74bedcbbbaca38ff6d7491d76f2b06b3592611af620f8426e82dddb04a5ced"},

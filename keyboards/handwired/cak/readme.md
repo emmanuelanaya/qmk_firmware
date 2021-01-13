@@ -4,7 +4,7 @@
 
 *A short description of the keyboard/project*
 
-* Keyboard Maintainer: [emmanuelanaya](https://github.com/yourusername)
+* Keyboard Maintainer: [teoremma](https://github.com/yourusername)
 * Hardware Supported: *The PCBs, controllers supported*
 * Hardware Availability: *Links to where you can find this hardware*
 
